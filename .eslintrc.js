@@ -20,6 +20,6 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true }],
+    'prettier/prettier': ['error', { singleQuote: true, endOfLine: 'auto' }],
   },
 };
