@@ -11,7 +11,8 @@
     "serve": "webpack serve --mode=development",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=be304b93ce0c"
   },
   "repository": {
     "type": "git",
