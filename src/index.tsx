@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import { Legend } from './components/Legend';
 // import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<Legend />, document.getElementById('root'));
 
 // reportWebVitals();
