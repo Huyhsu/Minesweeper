@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// import { Legend } from './components/Legend';
+
+import { Top } from './components/Top';
 // import reportWebVitals from './reportWebVitals';
 
-// ReactDOM.render(<Legend />, document.getElementById('root'));
+ReactDOM.render(
+  <Top feature="Flag" firstAction="ctrl" secondAction="click">
+    Minesweeper
+  </Top>,
+  document.getElementById('root')
+);
 
 // reportWebVitals();
